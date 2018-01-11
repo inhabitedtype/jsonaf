@@ -1,0 +1,21 @@
+lib: [
+  "_build/install/default/lib/jsonaf/META" {"META"}
+  "_build/install/default/lib/jsonaf/opam" {"opam"}
+  "_build/install/default/lib/jsonaf/jsonaf__Json_string.cmi"
+  "_build/install/default/lib/jsonaf/jsonaf__Json_string.cmx"
+  "_build/install/default/lib/jsonaf/jsonaf__Json_string.cmt"
+  "_build/install/default/lib/jsonaf/json_string.ml"
+  "_build/install/default/lib/jsonaf/jsonaf.cmi"
+  "_build/install/default/lib/jsonaf/jsonaf.cmx"
+  "_build/install/default/lib/jsonaf/jsonaf.cmt"
+  "_build/install/default/lib/jsonaf/jsonaf.cmti"
+  "_build/install/default/lib/jsonaf/jsonaf.mli"
+  "_build/install/default/lib/jsonaf/jsonaf__.cmi"
+  "_build/install/default/lib/jsonaf/jsonaf__.cmx"
+  "_build/install/default/lib/jsonaf/jsonaf__.cmt"
+  "_build/install/default/lib/jsonaf/jsonaf__.ml-gen"
+  "_build/install/default/lib/jsonaf/jsonaf.cma"
+  "_build/install/default/lib/jsonaf/jsonaf.cmxa"
+  "_build/install/default/lib/jsonaf/jsonaf.a"
+  "_build/install/default/lib/jsonaf/jsonaf.cmxs"
+]
