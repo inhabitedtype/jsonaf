@@ -1,0 +1,4 @@
+(library (name jsonaf_test)
+ (libraries core jsonaf)
+ (inline_tests (deps (glob_files json/*.json)))
+ (preprocess (pps ppx_jane)))
