@@ -101,10 +101,10 @@ module With_number = struct
   let parse = Parser.parse
 
   let of_string number_of_string string =
-    Angstrom.parse_string (parse number_of_string) string
+    Angstrom.parse_string ~consume:Angstrom.Consume.All (parse number_of_string) string
 
   let of_bigstring number_of_string bigstring =
-    Angstrom.parse_bigstring (parse number_of_string) bigstring
+    Angstrom.parse_bigstring ~consume:Angstrom.Consume.All (parse number_of_string) bigstring
 
   let rec serialize serialize_number t faraday =
     match t with

@@ -1,8 +1,0 @@
-(jbuild_version 1)
-
-(library
- ((name        jsonaf)
-  (public_name jsonaf)
-  (libraries
-    (angstrom faraday result))
-  (flags (:standard -safe-string))))
